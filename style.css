@@ -1,0 +1,28 @@
+/* style */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-div {
+  display: flex;
+  flex: 1;
+  background-image: url("images/fcb_screen.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.right-div {
+  display: flex;
+  flex: 1;
+}
