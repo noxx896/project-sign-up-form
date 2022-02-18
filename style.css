@@ -14,15 +14,41 @@ body {
 
 .left-div {
   display: flex;
+  flex-direction: column;
+  justify-content:center;
   flex: 1;
-  background-image: url("images/fcb_screen.jpg");
-  background-position: center;
+  background-image: url("images/camp_nou.jpg"); /*https://www.deviantart.com/techii/art/Barcelona-fcb-wallpaper-by-402218172*/
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 4vw;
+  font-weight: bold;
+  gap: 1rem;
+  background-color: rgb(0,0,0,0.5);
+  color: white;
+}
+
+.fcb-logo {
+  width: 10%;
+	height: auto;
+}
+
 .right-div {
   display: flex;
   flex: 1;
+}
+
+.credits {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
 }
