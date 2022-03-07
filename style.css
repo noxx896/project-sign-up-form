@@ -46,8 +46,20 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
+  padding: 2rem 2rem;
   background: rgb(1,1,94);
   background: linear-gradient(90deg, rgba(1,1,94,1) 0%, rgba(241,2,18,1) 50%, rgba(1,1,94,1) 100%);
+}
+
+.frm {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.submit-section {
+  display: flex;
+  padding: 2rem 0rem;
 }
 
 .credits {
@@ -56,6 +68,12 @@ body {
   bottom: 0;
   font-size: 1.5vw;
   color: white;
+  font-weight: bold;
+}
+
+.info {
+  color: white;
+  font-size: 2.5vw;
   font-weight: bold;
 }
 
