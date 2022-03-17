@@ -54,12 +54,22 @@ body {
 .frm {
   display: flex;
   flex-direction: column;
+  font-size: 1vw;
   color: white;
 }
 
 .submit-section {
   display: flex;
   padding: 2rem 0rem;
+}
+
+.input {
+  display: flex;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+}
+
+.right-input {
+  padding-left: 2rem;
 }
 
 .credits {
